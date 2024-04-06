@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    border: 2px solid red;
+    grid-template-columns: auto auto auto;
+}
+
+.box{
+    background: white;
+    border: 2px solid black;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details span{
+    font-size: 2rem;
+}
